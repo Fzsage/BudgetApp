@@ -1,20 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  background-color: #ffc107;
+  background-color: #C3F9FC;
   ;
 }
 
 input.form-control, input.form-control:focus {
-  background-color: #ffc107;
+  background-color: #C3F9FC;
   color: black;
   border-color: black;
-  border-radius: 0px;
   border-width: 2px;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
 }
 
   input.form-control:focus {
     box-shadow: none;
     border-bottom-color: black;
+
+
   }
 
 button[type=submit].btn {
@@ -44,4 +48,8 @@ form {
 
 div.side-header {
   border: 3px solid black;
+}
+
+.text-danger{
+  color:black;
 }
